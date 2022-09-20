@@ -1,13 +1,11 @@
 import streamlit as st
 
-st.title("Jorge, You are Dead!!!!")
+st.title("Hello, World!!!!")
 
 my_text = st.text("Press The RUN Command!")
 my_button = st.button("RUN Command")
 
 if my_button:
-    st.title("We are executing your Death!")
-    my_text = st.text("You are and Angel now!")
-
-my_text = st.text("Now, kill another one!!")
+    st.title("This is Just a Simple Streamlit Code!")
+    my_text = st.text("Thank You For Using the code!")
 
